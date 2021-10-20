@@ -119,6 +119,7 @@ main  p {
 
 main img {
     width: 100%;
+    margin-bottom: 30px;
 }
 
 main img.pq {
