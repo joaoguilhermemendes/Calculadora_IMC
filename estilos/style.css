@@ -1,0 +1,217 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #D7CCF2;
+    --cor1: #BAAFEB;
+    --cor2: #B87ADE;
+    --cor3: #7B64D8;
+    --cor4: #412EB8;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-titulo: 'Fjalla One', cursive;
+    --fonte-destaque: 'Kanit', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    height: 170px;
+    background-image: linear-gradient(to bottom, var(--cor4) ,var(--cor2));
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 3em;
+    font-family: 'Fjalla One', sans-serif;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.452);
+}
+
+header > p {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.3em;
+    font-family: 'Fjalla One', sans-serif;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.452);
+
+}
+
+.menu {
+    background-color: var(--cor2);
+    padding: 20px;
+    padding-top: 30px;
+    box-shadow: 10px 15px 16px -6px rgb(0 0 0 / 15%);
+}
+
+nav.menu > a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: lighter;
+}
+
+nav.menu > a:hover {
+    background-color: var(--cor4);
+    color: white;
+    border-radius: 5px;
+}
+
+body {
+    background-color: var(--cor0);
+}
+
+main {
+    background-color: white;
+    max-width: 800px;
+    min-width: 300px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 15px 16px -6px rgb(0 0 0 / 20%);
+
+}
+
+main h2 {
+    color: black;
+    font-family: 'Kanit', sans-serif;
+}
+
+main h3 {
+    color: white;
+    background-color: var(--cor4);
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px 20px 0px 0px;
+    font-size: 1.5em;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+main h4 {
+    font-size: 2em;
+    color: white;
+    background-image: linear-gradient(to right, var(--cor3) ,var(--cor0));
+    padding-left: 20px;
+    text-align: left;
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 80px;
+}
+
+
+main  p {
+    line-height: 2em;
+    padding: 10px;
+}
+
+main img {
+    width: 100%;
+}
+
+main img.pq {
+    width:70%;
+    padding-left: 15%;
+    margin-top: 20px;
+}
+
+.calculadora {
+    background-color: var(--cor0);
+    width: 70%;
+    border-radius: 20px;
+    margin: auto;
+    font-size: 1.4em;
+    text-align: center;
+    box-shadow: 10px 15px 16px -6px rgb(0 0 0 / 15%);
+}
+
+.calculadora > p {
+    padding: 7px;
+}
+
+input.num {
+    width: 150px;
+    height: 25px;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: var(--cor3);
+    border-radius: 50px;
+    color: white;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    border-color: var(--cor4);
+    border-width: 2px;
+}
+
+button:hover {
+    background-color: var(--cor4);
+    color: white;
+    border-color: var(--cor1);
+    border-width: 2px;
+}
+
+.resultado {
+    background-color: var(--cor0);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70%;
+    font-size: 1.4em;
+    text-align: center;
+    box-shadow: 10px 15px 16px -6px rgb(0 0 0 / 15%);
+    padding: 10px;
+}
+
+.txt_resultado strong {
+    background-color: var(--cor0);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+footer{
+    background-color: var(--cor2);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.redes {
+    background-color: var(--cor2);
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+nav.redes > a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    padding: 20px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: lighter;
+}
+
+nav.redes > a:hover {
+    color: var(--cor4);
+    border-radius: 5px;
+}
+

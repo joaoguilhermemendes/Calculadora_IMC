@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+
+    <header>
+        <h1>IMC</h1>
+        <p>Utilize esse site para realizar o cálculo do seu índice de massa corporal</p>
+
+        <link rel="stylesheet" href="estilos/style.css">
+        <link rel="shortcut icon" href="imagens/Iconleak-Or-Justice-balance.ico" type="image/x-icon">
+    </header>
+
+</head>
+<body>
+    <nav class="menu">
+        <a href="#">&#9776;</a>
+        <a href="#">Menu</a>
+        <a href="#">Atendimentos</a>
+        <a href="#">Curiosidades</a>
+        <a href="#">Fale conosco</a>
+    </nav>
+    
+
+    <main>
+        <article>
+            <h2>Definição</h2>
+            <p>
+
+            </p>
+            <p>
+                IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.
+                O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.
+                Quer descobrir seu IMC? Insira seu peso e sua altura nos campos abaixo e compare com os índices da tabela. Importante: siga os exemplos e use pontos como separadores.
+            </p>
+
+            <picture>
+                <source media="(max-width: 650px)" srcset="imagens/corpos-p.png" sizes="">
+                <img src="imagens/corpos-g.png" alt="Tipos de corpos">
+            </picture>
+        </article>
+
+        <aside>
+            <div class="calculadora">
+
+                <h3>Calculadora de IMC</h3>
+
+                <form >
+                    <p id="sexo">Sexo:
+                    <input type="radio" name="webmaster" id="feminino" value ='feminino' >   Feminino
+                    <input type="radio" name="webmaster" id="masculino" value ='masculino'>   Masculino
+                    </p>
+                </form>
+                
+                <p>Idade:
+                <input id="idade" class="num" type="number" placeholder="Ex: 19" size="2"  maxlength="2">  anos</p>
+
+                <p>Altura:
+                <input id="altura" class="num" type="number" placeholder="Ex: 1.79"> 
+                m</p>
+
+                <p>Peso:
+                <input id="peso" class="num" type="number" placeholder="Ex: 90"> 
+                kg</p>
+
+                <button onclick="Calcular_imc()">Calcular</button>
+
+            </div>
+
+            <div class="resultado">
+                <p>Seu resultado será <strong>AQUI</strong></p>
+            </div>
+
+            <div class="txt_resultado"></div>
+        </aside>
+
+        <picture>
+            <source media="(max-width: 650px)" srcset="" sizes="100%">
+            
+            <img src="imagens/tabela-corpos.png" class='pq' alt="Tabela de pesos por altura">
+        </picture>
+    </main>   
+</body>
+
+<footer>
+    <p>Site desenvolvido por João Guilherme Mendes &copy;</p>
+
+    <nav class="redes">
+        <a href="https://www.instagram.com/joao_guilherme26/?hl=pt-br" target="blank">Instagram &#8599;</a>
+        <a href="https://twitter.com/jgmendes_" target='blank'>Twitter &#8599;</a>
+        <a href="https://github.com/joaoguilhermemendes" target="blank">Github &#8599;</a>
+        <a href="https://www.linkedin.com/in/jo%C3%A3o-guilherme-porto-mendes-855098209/" target="blank">Linkedin &#8599;</a>
+    </nav>
+
+</footer>
+<script src="script.js"></script>
+</html>
